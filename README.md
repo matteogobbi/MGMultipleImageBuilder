@@ -13,12 +13,12 @@ If your code doesn't use ARC you can [mark this source with the compiler flag](h
 ## Example Usage
 
 ```objective-c
-    //Create image
-    UIImage *image = [MGMultipleImageBuilder multipleImageWithFrontImageSize:CGSizeMake(80, 80)
-																                                  frontImage:frontImage
-																                                   leftImage:leftImage
-																                                  rightImage:rightImage
-                                                                  borderType:MGMultipleImagePathCircle
-																                                 borderColor:[UIColor blueColor]
-																                                 borderWidth:3.0];
+//Create image
+UIImage *image = [MGMultipleImageBuilder multipleImageWithFrontImageSize:CGSizeMake(80, 80) 
+							      frontImage:frontImage 
+							       leftImage:leftImage 
+							      rightImage:rightImage 
+							      borderType:MGMultipleImagePathCircle 
+							     borderColor:[UIColor blueColor] 
+							     borderWidth:3.0];
 ```
