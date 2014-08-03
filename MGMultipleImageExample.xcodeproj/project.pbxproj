@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65A7BE8C198EF83900991028 /* MGMultipleImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A7BE8B198EF83900991028 /* MGMultipleImageBuilder.m */; };
+		65A7BE90198EFA8500991028 /* MGMultipleImageBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A7BE8F198EFA8500991028 /* MGMultipleImageBuilder.m */; };
 		84438C1D1987AE5B0005AAA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84438C1C1987AE5B0005AAA4 /* Foundation.framework */; };
 		84438C1F1987AE5B0005AAA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84438C1E1987AE5B0005AAA4 /* CoreGraphics.framework */; };
 		84438C211987AE5B0005AAA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84438C201987AE5B0005AAA4 /* UIKit.framework */; };
@@ -35,8 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		65A7BE8A198EF83900991028 /* MGMultipleImageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMultipleImageBuilder.h; sourceTree = "<group>"; };
-		65A7BE8B198EF83900991028 /* MGMultipleImageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMultipleImageBuilder.m; sourceTree = "<group>"; };
+		65A7BE8E198EFA8500991028 /* MGMultipleImageBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMultipleImageBuilder.h; sourceTree = "<group>"; };
+		65A7BE8F198EFA8500991028 /* MGMultipleImageBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGMultipleImageBuilder.m; sourceTree = "<group>"; };
 		84438C191987AE5B0005AAA4 /* MGMultipleImageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGMultipleImageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84438C1C1987AE5B0005AAA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84438C1E1987AE5B0005AAA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,11 +82,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		65A7BE89198EF83900991028 /* MGMultipleImageBuilder */ = {
+		65A7BE8D198EFA8500991028 /* MGMultipleImageBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				65A7BE8A198EF83900991028 /* MGMultipleImageBuilder.h */,
-				65A7BE8B198EF83900991028 /* MGMultipleImageBuilder.m */,
+				65A7BE8E198EFA8500991028 /* MGMultipleImageBuilder.h */,
+				65A7BE8F198EFA8500991028 /* MGMultipleImageBuilder.m */,
 			);
 			path = MGMultipleImageBuilder;
 			sourceTree = SOURCE_ROOT;
@@ -124,7 +124,7 @@
 		84438C221987AE5B0005AAA4 /* MGMultipleImageExample */ = {
 			isa = PBXGroup;
 			children = (
-				65A7BE89198EF83900991028 /* MGMultipleImageBuilder */,
+				65A7BE8D198EFA8500991028 /* MGMultipleImageBuilder */,
 				84438C2B1987AE5B0005AAA4 /* MGAppDelegate.h */,
 				84438C2C1987AE5B0005AAA4 /* MGAppDelegate.m */,
 				84438C2E1987AE5B0005AAA4 /* Main.storyboard */,
@@ -264,9 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84438C2D1987AE5B0005AAA4 /* MGAppDelegate.m in Sources */,
+				65A7BE90198EFA8500991028 /* MGMultipleImageBuilder.m in Sources */,
 				84438C331987AE5B0005AAA4 /* MGViewController.m in Sources */,
 				84438C291987AE5B0005AAA4 /* main.m in Sources */,
-				65A7BE8C198EF83900991028 /* MGMultipleImageBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
